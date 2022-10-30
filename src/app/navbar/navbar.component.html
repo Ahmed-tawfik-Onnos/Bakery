@@ -1,0 +1,58 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <div class="mx-auto" id="contianer2">
+      <!-- Navbar brand -->
+      <div class="navbar-brand" id="brand-name">
+        <img src="../../assets/images/bakery-color.png" alt="">
+      </div>
+  
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        (click)="basicNavbar.toggle()"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="navbar-toggler-icon"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div
+        class="collapse navbar-collapse my-auto"
+        id="navbarSupportedContent"
+        mdbCollapse
+        #basicNavbar="mdbCollapse"
+      >
+        <!-- right links -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#LocationContainer">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ContactsContainer">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Offers</a>
+          </li>
+        </ul>
+        <!-- right links -->
+      </div>
+    </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  <div class="clr"></div>

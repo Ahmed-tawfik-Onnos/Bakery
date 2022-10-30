@@ -1,0 +1,18 @@
+@import "../../styles.scss";
+#contianer2{
+    width: 70%;
+    #brand-name{
+        float: left;
+        padding: 10px 15px;
+        img{
+            width: auto;
+            height: 30px;
+        }
+    }
+    #navbarSupportedContent{
+        float: right;
+    }
+}
+.clr{
+    clear: both;
+}

@@ -1,0 +1,68 @@
+@import "../../styles.scss";
+.WhoContainer{
+    padding: 2vw 6vw;
+    .icon{
+        width: 60px;
+        height: 60px;
+    }
+    #WhoContent{
+        padding: 40px;
+    }
+}
+.LocationContainer{
+    padding: 2vw 6vw;
+    background-color: $secondbgColor;
+    #LocationContent{
+        padding-top: 120px;
+    }
+}
+.BakingContainer{
+    text-align: center;
+    padding: 2vw 4vw;
+    .BakingHeader{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .itemHeader{
+        padding: 20px;
+    }
+    
+}
+.ContactsContainer{
+    padding: 2vw 4vw;
+    background-color: $secondbgColor;
+    .ContactContent{
+        margin: 3vw 0;
+        h2,h5{
+            margin-bottom: 25px;
+        }
+        .iconsContainer{
+            display: flex;
+            align-items: center;
+            
+            img{
+                width: 60px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .mapouter{
+        position:relative;
+        text-align:right;
+        height:70vh;
+        width:100%;
+        margin: 5vw 0;
+        .gmap_canvas{
+            overflow:hidden;
+            background:none!important;
+            height:inherit;
+            width:100%;
+            iframe{
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+}
+
+

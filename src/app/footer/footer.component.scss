@@ -1,0 +1,44 @@
+@import "../../styles.scss";
+
+.footerContainer{
+    background-color: $footerBackGround;
+    padding: 3% 7%;
+    color: $footerTextColor;
+    h4{
+        padding: 1vw 0;
+        color: #FFF9DA;
+    }
+    ul{
+        list-style-image: url(../../assets/Icons/17.PNG);
+        li{
+            border-bottom: 1px solid $footerTextColor;
+            padding: 0.5vw;
+            a{
+                text-decoration: none;
+                color: $footerTextColor;
+            }
+        }
+    }
+    #aboutUsDiv{
+        border-bottom:1px solid $footerTextColor;
+        img{
+            padding: 1vw;
+        }
+    }
+}
+.copyRight{
+    background-color: $copyRightsBackground;
+    color: #CCC;
+    padding: 7vw 0;
+    font-size: 15px;
+    #copyRightContant{
+        text-align: center;
+        img{
+            margin-bottom: 2vw;
+        }
+        p{
+            margin-bottom: 2vw;
+        }
+        
+    }
+}
